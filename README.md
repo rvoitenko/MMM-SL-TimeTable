@@ -44,7 +44,7 @@ modules: [
                 lines: [                    // Optional. An array of lines that you want to see departing from
                                             // this station.
                   {
-                    direction: dir,         // Optional. If present only show departures in this direction
+                    direction: dir-id,      // Optional. If present only show departures in this direction
                                             // for this line. You need to run the utility
                                             // findStation to get the id(s) of the direction(s) you want.
                   }
