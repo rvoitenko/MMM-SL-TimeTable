@@ -1,0 +1,31 @@
+{
+  "name": "mmm-sl-timetable",
+  "version": "1.0.0",
+  "description": "Get departures for a station using the SL API's (Stockholm/Sweden)",
+  "main": "index.js",
+  "scripts": {
+    "start": "..\\..\\node_modules\\electron\\dist\\electron.exe ..\\..\\js\\electron.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "station": "node findStation.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvoitenko/MMM-SL-TimeTable.git"
+  },
+  "keywords": [
+    "magicmirror",
+    "timetable"
+  ],
+  "author": "roman.voitenko@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rvoitenko/MMM-SL-TimeTable/issues"
+  },
+  "homepage": "https://github.com/rvoitenko/MMM-SL-TimeTable#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "https-proxy-agent": "^5.0.0",
+    "lodash": "^4.17.20",
+    "url": "^0.11.0"
+  }
+}

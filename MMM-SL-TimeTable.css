@@ -1,0 +1,22 @@
+.MMM-SL-TimeTable .table {
+    width: 100%; /* Ensure the table uses the full width */
+    text-align: left; /* Align text to the left */
+    border-collapse: collapse; /* Collapse borders between table cells */
+}
+
+.MMM-SL-TimeTable th, .MMM-SL-TimeTable td {
+    padding: 0.5rem; /* Add padding around table cell content for better spacing */
+    border-bottom: none; /* Add a bottom border to each cell for better separation */
+}
+
+.MMM-SL-TimeTable th {
+    color: #fff; /* Optional: Change the header text color */
+}
+
+.MMM-SL-TimeTable td {
+    vertical-align: middle; /* Align cell content vertically in the middle */
+}
+
+.MMM-SL-TimeTable i {
+    margin-right: 0.5rem; /* Add some space between the icon and the text */
+}
