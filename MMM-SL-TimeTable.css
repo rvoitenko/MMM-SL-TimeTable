@@ -5,7 +5,7 @@
 }
 
 .MMM-SL-TimeTable th, .MMM-SL-TimeTable td {
-    padding: 0.5rem; /* Add padding around table cell content for better spacing */
+    padding: 0 5px;
     border-bottom: none; /* Add a bottom border to each cell for better separation */
 }
 
